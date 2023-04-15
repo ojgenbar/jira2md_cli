@@ -1,0 +1,19 @@
+{
+  "name": "jira2md_cli",
+  "version": "1.0.0",
+  "description": "",
+  "main": "./bin/j2m.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "bin": {
+    "j2m": "./bin/j2m.js"
+  },
+  "dependencies": {
+    "colors": "^1.4.0",
+    "jira2md": "^3.0.0",
+    "minimist": "^1.2.8"
+  }
+}
